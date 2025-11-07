@@ -7,7 +7,7 @@ app.get('/', (req, res) =>{
     res.send("Hello World")
 })
 
-//Connecting to database
+//Connecting to database connection
 const mysql2 = require('mysql2');
 
 const mysql = mysql2.createConnection({

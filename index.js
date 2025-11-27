@@ -6,7 +6,6 @@ const app = express();
 dotenv.config();
 const PORT = process.env.PORT || 3000; 
 
-
 //crating a server 
 app.listen(PORT, ()=>{
     console.log("Server is running at port", PORT);

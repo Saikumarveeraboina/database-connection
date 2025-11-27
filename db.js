@@ -6,7 +6,6 @@ dotenv.config()
 app.get('/', (req, res) =>{
     res.send("Hello World")
 })
-
 //Connecting to database connection
 const mysql2 = require('mysql2');
 

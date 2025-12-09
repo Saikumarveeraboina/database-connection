@@ -1,6 +1,5 @@
 const app = require('./index.js');
 const dotenv = require('dotenv')
-
 dotenv.config()
 //simple route
 app.get('/', (req, res) =>{

@@ -9,6 +9,5 @@ app.listen(PORT, ()=>{
     console.log("Server is running at port", PORT);
 })
 
-
 //exporting app
 module.exports = app;

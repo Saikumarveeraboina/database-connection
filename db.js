@@ -15,6 +15,7 @@ const mysql = mysql2.createConnection({
     database: process.env.DATABASE,
 
 })
+
 mysql.connect((err, data) => {
     if (err) {
         console.log("Error while connecting to database", err);
